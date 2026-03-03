@@ -105,6 +105,14 @@ namespace Valve.VR
             }
         }
         
+        public virtual SteamVR_Action_Boolean OffRoadTeleport
+        {
+            get
+            {
+                return SteamVR_Actions.default_OffRoadTeleport;
+            }
+        }
+        
         public virtual SteamVR_Action_Vibration Haptic
         {
             get
